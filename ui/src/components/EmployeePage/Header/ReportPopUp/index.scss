@@ -1,0 +1,35 @@
+.popup-content {
+    width: 400px !important;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .reportForm {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 300px;
+        position: relative;
+
+        .block {
+            display: flex;
+            gap: 30px;
+            padding-bottom: 20px;
+            width: 80%;
+
+            .text {
+                width: 80px;
+            }
+        }
+
+    }
+
+    button {
+        width: 60%;
+        height: 25px;
+        margin-bottom: 30px;
+    }
+}

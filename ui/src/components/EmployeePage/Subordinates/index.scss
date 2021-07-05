@@ -1,0 +1,19 @@
+.subordinatesWrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    padding-top: 20px;
+
+    .container {
+        width: 100%;
+        height: 100%;
+        border: 1px solid black;
+
+        .subordinate {
+            display: flex;
+            padding: 10px 15px;
+            gap: 15px;
+        }
+    }
+}

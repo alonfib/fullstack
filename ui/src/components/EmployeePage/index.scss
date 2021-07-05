@@ -1,0 +1,16 @@
+.employeePageWrapper {
+    padding: 20px;
+    border: 8px solid red;
+    box-sizing: border-box;
+    text-align: center;
+    height: 100%;
+    position: relative;
+    display: grid;
+    grid-template-rows: 34% 33% 33%;
+
+    .backButton {
+        position: absolute;
+        top: 20px;
+        right: 20px;
+    }
+}
